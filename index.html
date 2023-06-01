@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form with JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-body">
+            <div class="header">
+                <div><img src="hero_1.jpg" alt=""></div>
+                <div>
+                    <h1>Student Registration Form</h1>
+                    <p>Fill out the form to apply for the training courses. You can consider your application considered when you receive a confirmation email.</p>
+                </div>
+            </div>
+            <div class="student-info">
+                <h2>Student Information</h2>
+                <div class="form-student">
+                    <form action="">
+                        <input type="text" name="First Name" id="one" placeholder="First Name">
+                        <input type="text" name="Middle Name" id="two" placeholder="Middle Name">
+                        <input type="text" name="Last name" id="three" placeholder="Last Name">
+                        <input type="datetime" name="Date of Birth" id="four" placeholder="Date of Birth" >
+                        <input type="text" name="Student ID" id="five" placeholder="Student ID">
+                    </form>
+                </div>
+            </div>
+            <!-- Address Information  -->
+             <div class="address-info">
+                <h2>Address </h2>
+                <div class="form-address">
+                    <form action="">
+                        <input type="text" name="Street Address" id="six" placeholder="Street Address">
+                        <input type="text" name="City" placeholder="City" id="seven">
+                        <input type="text" name="State/Province"  placeholder="State/Province" id="eight">
+                        <input name="country" id="nine" placeholder="Country" type="text">
+                            <!-- <option value="nigeria">Nigeria</option>
+                            <option value="canada">Canada</option>
+                            <option value="france">France</option>
+                            <option value="usa">USA</option> -->
+                        </input>
+                        <input type="number" name="Zip Code" id="ten" placeholder="Zip Code">
+                    </form>
+                </div>
+            </div>
+            <!-- Contact Info  -->
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <div class="form-contact">
+                    <form action="">
+                        <input type="text" name="Email" id="eleven" placeholder="Email">
+                        <input type="text" name="Middle Name" id="twelve">
+                    </form>
+                </div>
+            </div>
+            <!-- Courses -->
+            <div class="courses">
+                <h2>Courses *</h2>
+                <div class="record-box">
+                    <input type="button" name="" id="thirteen" placeholder="+ Add new record" value="+ Add new record">
+                    <div class="course-flex">
+                        <!-- Course  -->
+                        <select type="text" placeholder="gourse" value="course" id="fourteen">
+                            <option value="Frontend">Course</option>
+                            <option value="Frontend">Frontend</option>
+                            <option value="Frontend">Backend</option>
+                            <option value="Frontend">Cloud Engineering</option>
+                        
+                        </select>
+                        <!-- Level  -->
+                        <select type="text" placeholder="level" value="level" id="fourteen">
+                            <option value="level">Level</option>
+                            <option value="Beginner">Beginner</option>
+                            <option value="Intermediate">Intermediate</option>
+                            <option value="Advanced">Advanced</option>
+                        
+                        </select>
+
+                        <!-- Language  -->
+                        <select type="text" placeholder="language" value="lang" id="fourteen">
+                            <option value="lang">Language</option>
+                            <option value="js">Javascript</option>
+                            <option value="php">PHP</option>
+                            <option value="python">Python Engineering</option>
+                        
+                        </select>
+
+                        <!-- Start Date -->
+                        <select type="text" placeholder="Start Date" value="course" id="fourteen">
+                            <option value="Frontend">Start Date</option>
+                            <option value="Frontend">1 May</option>
+                            <option value="Frontend">3 June</option>
+                            <option value="Frontend">8 July</option>
+                        </select>
+                    </div>
+                    
+                </div>
+                <input type="text" name="" id="comment-box" placeholder="Comments">
+            </div>
+            <button type="submit" id="submit-btn">SEND REQUEST</button>
+        </div>
+    </div>
+</body>
+</html>

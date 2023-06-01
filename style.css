@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+}
+h1 {
+  font-size: 35px;
+}
+h2 {
+  font-size: 20px;
+  padding-top: 12px;
+}
+.container {
+  border: 10px solid #fb8c6c;
+}
+.container-body {
+  padding: 1em 2em;
+}
+img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid orange;
+}
+.header {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+input{
+  padding: 10px;
+  margin: 7px 8px 7px 0;
+  cursor: text;
+}
+input:focus {
+  border: 2px solid #1482dc98;
+}
+select {
+  /* border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133)); */
+  padding: 10px;
+  cursor: pointer;
+  text-shadow: none;
+  border-radius: 0;
+  /* background-color: field; */
+}
+select:focus {
+  border: 2px solid #1482dc98;
+}
+#one {
+  width: 33%;
+}
+#two {
+  width: 33%;
+}
+#three {
+  width: 30%;
+}
+#four {
+  width: 50%;
+}
+#five {
+  width: 40%;
+}
+#six {
+  width: 100%;
+}
+#seven {
+  width: 45%;
+}
+#eight {
+  width: 45%;
+}
+#nine {
+  width: 45%;
+}
+#ten {
+  width: 45%;
+}
+#eleven {
+  width: 45%;
+}
+#twelve {
+  width: 45%;
+}
+#thirteen {
+  background-color: #ececec;
+  border: none;
+  color: rgb(118, 118, 118);
+  margin-left: 12px;
+  /* font-weight: 600; */
+  /* padding: 2em; */
+}
+.record-box {
+  border: 1px solid rgb(118, 118, 118);
+}
+#fourteen {
+  width: 15%;
+  padding: 7px;
+  color: rgb(118, 118, 118);
+}
+.course-flex {
+  display: flex;
+}
+#comment-box {
+  width: 100%;
+  padding-bottom: 70px;
+}
+#submit-btn {
+  width: 100%;
+  padding: 6px;
+  background-color: #1482dc;
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
