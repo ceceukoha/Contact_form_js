@@ -21,10 +21,10 @@
                 <h2>Student Information</h2>
                 <div class="form-student">
                     <form action="">
-                        <input type="text" name="First Name" id="one" placeholder="First Name">
+                        <input type="text"  id="one" placeholder="First Name">
                         <input type="text" name="Middle Name" id="two" placeholder="Middle Name">
-                        <input type="text" name="Last name" id="three" placeholder="Last Name">
-                        <input type="datetime" name="Date of Birth" id="four" placeholder="Date of Birth" >
+                        <input type="text" id="three" placeholder="Last Name">
+                        <input type="date" name="Date of Birth" id="four" placeholder="Date of Birth" >
                         <input type="text" name="Student ID" id="five" placeholder="Student ID">
                     </form>
                 </div>
@@ -43,7 +43,7 @@
                             <option value="france">France</option>
                             <option value="usa">USA</option> -->
                         </input>
-                        <input type="number" name="Zip Code" id="ten" placeholder="Zip Code">
+                        <input type="number" id="ten" placeholder="Zip Code">
                     </form>
                 </div>
             </div>
@@ -53,7 +53,7 @@
                 <div class="form-contact">
                     <form action="">
                         <input type="text" name="Email" id="eleven" placeholder="Email">
-                        <input type="text" name="Middle Name" id="twelve">
+                        <input type="text" name="" id="twelve">
                     </form>
                 </div>
             </div>
@@ -64,15 +64,15 @@
                     <input type="button" name="" id="thirteen" placeholder="+ Add new record" value="+ Add new record">
                     <div class="course-flex">
                         <!-- Course  -->
-                        <select type="text" placeholder="gourse" value="course" id="fourteen">
-                            <option value="Frontend">Course</option>
+                        <select type="text" placeholder="Course" value="course" id="fourteen"class="course">
+                            <option value="Course">Course</option>
                             <option value="Frontend">Frontend</option>
                             <option value="Frontend">Backend</option>
                             <option value="Frontend">Cloud Engineering</option>
                         
                         </select>
                         <!-- Level  -->
-                        <select type="text" placeholder="level" value="level" id="fourteen">
+                        <select type="text" placeholder="level" value="level" id="fourteen" class="level">
                             <option value="level">Level</option>
                             <option value="Beginner">Beginner</option>
                             <option value="Intermediate">Intermediate</option>
@@ -81,7 +81,7 @@
                         </select>
 
                         <!-- Language  -->
-                        <select type="text" placeholder="language" value="lang" id="fourteen">
+                        <select type="text" placeholder="language" value="lang" id="fourteen" class="lang">
                             <option value="lang">Language</option>
                             <option value="js">Javascript</option>
                             <option value="php">PHP</option>
@@ -90,7 +90,7 @@
                         </select>
 
                         <!-- Start Date -->
-                        <select type="text" placeholder="Start Date" value="course" id="fourteen">
+                        <select type="text" placeholder="Start Date" value="course" id="fourteen" class="start-date">
                             <option value="Frontend">Start Date</option>
                             <option value="Frontend">1 May</option>
                             <option value="Frontend">3 June</option>
@@ -99,10 +99,12 @@
                     </div>
                     
                 </div>
-                <input type="text" name="" id="comment-box" placeholder="Comments">
+                <input type="text" name="" id="commentbox" placeholder="Comments">
             </div>
             <button type="submit" id="submit-btn">SEND REQUEST</button>
         </div>
     </div>
+
+    <script src="index.js"></script>
 </body>
 </html>

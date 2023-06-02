@@ -104,7 +104,7 @@ select:focus {
 .course-flex {
   display: flex;
 }
-#comment-box {
+#commentbox {
   width: 100%;
   padding-bottom: 70px;
 }
